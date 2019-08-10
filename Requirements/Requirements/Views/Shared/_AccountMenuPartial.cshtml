@@ -1,0 +1,33 @@
+﻿@if (User.IsInRole("Administrador") && User.Identity.IsAuthenticated)
+{
+    <li class="nav-item">
+        <a asp-area="" asp-controller="Status" asp-action="Index" class="nav-link">Estados</a>
+    </li>
+    <li class="nav-item">
+        <a asp-area="" asp-controller="Projects" asp-action="Index" class="nav-link">Proyectos</a>
+    </li>
+    <li class="nav-item">
+        <a asp-area="" asp-controller="Requirements" asp-action="Index" class="nav-link">Requisitos</a>
+    </li>
+    <li class="nav-item">
+        <a asp-area="" asp-controller="Users" asp-action="Index" class="nav-link">Usuarios</a>
+    </li>
+    <li class="nav-item">
+        <a asp-area="" asp-controller="Roles" asp-action="Index" class="nav-link">Roles</a>
+    </li>
+}
+else if (User.IsInRole("Analista") && User.Identity.IsAuthenticated)
+{
+    <li class="nav-item">
+        <a asp-area="" asp-controller="Projects" asp-action="Index" class="nav-link">Proyectos</a>
+    </li>
+    <li class="nav-item">
+        <a asp-area="" asp-controller="Requirements" asp-action="Index" class="nav-link">Requisitos</a>
+    </li>
+}
+else if (User.IsInRole("Cliente") && User.Identity.IsAuthenticated)
+{
+    <li class="nav-item">
+        <a asp-area="" asp-controller="Requirements" asp-action="Index" class="nav-link">Requisitos</a>
+    </li>
+}

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Requirements.Data.Entities.Role>
+@{
+    ViewData["Title"] = "Roles";
+}
+<h2>@ViewData["Title"]</h2>
+<a asp-action="Create">Crear nuevo</a>
+<hr />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" />
+
+<table class="table" id="RolesTable">
+    <thead>
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th scope="col" class="text-right">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td class="text-right">
+                    @if (item.Name.Equals("Administrador") || item.Name.Equals("Analista") || item.Name.Equals("Cliente"))
+                    {
+                        <a asp-action="Details" asp-route-id="@item.Id"> Detalles </a>
+                    }
+                    else
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> <span>|</span>
+                        <a asp-action="Details" asp-route-id="@item.Id"> Detalles </a> <span>|</span>
+                        <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                    }
+                </td>
+            </tr>
+            }
+    </tbody>
+    </table>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#RolesTable').DataTable(
+                {
+                    "language": {
+                        "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
+                    }
+                });
+        });
+    </script>
+}

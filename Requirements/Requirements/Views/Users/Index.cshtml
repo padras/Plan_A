@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Requirements.Data.Entities.User>
+@{
+    ViewData["Title"] = "Usuarios";
+}
+<h2>@ViewData["Title"]</h2>
+<a asp-controller="Account" asp-action="Register">Crear usuario</a>
+<hr />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" />
+
+<table class="table" id="Users">
+    <thead>
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.UserRoles)
+            </th>
+            <th scope="col" class="text-right">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserRoles)
+                </td>
+                <td class="text-right">
+                    @if (item.EmailConfirmed)
+                    {
+                        <a asp-action="DeactivateAccount" asp-controller="Account" asp-route-id="@item.Id" class="text-danger"><strong>Deshabilitar cuenta</strong></a>
+                    }
+                    else
+                    {
+                        <a asp-action="ActivateAccount" asp-controller="Account" asp-route-id="@item.Id" class="text-primary"><strong>Habilitar cuenta</strong></a>
+                    }
+                    | <a asp-route-id="@item.Id" asp-action="Edit">Editar</a>
+                    | <a asp-route-id="@item.Id" asp-action="Delete">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+    </table>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#Users').DataTable(
+                {
+                    "language": {
+                        "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
+                    }
+                });
+        });
+    </script>
+}

@@ -1,0 +1,49 @@
+﻿@model Requirements.Models.LoginViewModel
+@{
+    ViewData["Title"] = "Inicio de sesión";
+}
+
+    <h2 class="text-center text-info">Inicio de sesión</h2>
+<hr />
+<div class="text-center row">
+    <div class="text-center col-md-12">
+        <form method="post" class="text-center align-content-center" asp-antiforgery="true">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Username"></label>
+                <input asp-for="Username" class="form-control" autocomplete="off" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" type="password" class="form-control" autocomplete="off" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group form-check">
+                <input asp-for="RememberMe" type="checkbox" class="form-check-input" />
+                <label asp-for="RememberMe" class="form-check-label"></label>
+            </div>
+
+            <div class="form-group">
+                <p>
+                    <a class="alert-info" asp-action="RecoveryPassword">¿Olvidó su contraseña?</a>
+                </p>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-info" />
+            </div>
+
+        </form>
+
+    </div>
+    <div>
+        <a class="text-info" asp-controller="Home" asp-action="Index">Volver</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

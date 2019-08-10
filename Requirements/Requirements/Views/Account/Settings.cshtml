@@ -1,0 +1,64 @@
+﻿@model Requirements.Models.SettingsViewModel
+@{
+    ViewData["Title"] = "Configuración";
+}
+
+<h4 class="text-center text-info">Configuración</h4>
+<dl class="text-center dl-horizontal">
+    <dt style="color:#a6bdb3">
+        @Html.DisplayNameFor(model => model.FullName)
+    </dt>
+    <dd>
+        @Html.DisplayFor(model => model.FirstName)
+    <dd>
+        @Html.DisplayFor(model => model.LastName)
+    </dd>
+</dl>
+<dl class="text-center dl-horizontal">
+    <dt style="color:#a6bdb3">
+        @Html.DisplayNameFor(model => model.Email)
+    </dt>
+    <dd>
+        @Html.DisplayFor(model => model.Email)
+    </dd>
+</dl>
+<div class="text-center">
+    <a asp-action="UpdateUser" asp-controller="Account" class="btn btn-info">Actualizar perfil</a>
+</div>
+<div>
+    <dl class="text-center dl-horizontal">
+        <dt style="color:#a6bdb3">
+            Contraseña
+        </dt>
+        <dd>
+            <a asp-action="UpdatePassword" class="text-danger"><strong>Cambiar contraseña</strong></a>
+        </dd>
+    </dl>
+</div> 
+    <dl class=" text-center  dl-horizontal">
+        <dt style="color:#a6bdb3">
+            @Html.DisplayNameFor(model => model.TwoFactorEnabled)
+        </dt>
+        <dd>
+            @if (Model.TwoFactorEnabled)
+            {
+                <a asp-action="Deactivate2fa" class="text-danger"><strong>Desactivar</strong></a>
+                <label> | </label>
+                <a asp-action="Restart2fa" class="text-danger"><strong>Reiniciar</strong></a>
+                <label> | </label>
+                <a asp-action="GenerateRecoveryWarning" class="text-danger"><strong>Reiniciar códigos de recuperación</strong></a>
+            }
+            else
+            {
+                <a asp-action="Activate2fa" class="text-danger"><strong>Activar</strong></a>
+            }
+        </dd>
+    </dl>
+
+    <div>
+        <a asp-action="Index" asp-controller="Home">Volver</a>
+    </div>
+
+    @section Scripts {
+        @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+    }

@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Reinicio de la autenticación de dos factores";
+}
+
+    <h2>Reinicio de la autenticación de dos factores</h2>
+
+<div class="alert alert-warning" role="alert">
+    <p>
+        <span class="glyphicon glyphicon-warning-sign"></span>
+        <strong>
+            Si restablece la clave de autenticación, la aplicación de autenticación no funcionará hasta que la reconfigure.
+        </strong>
+    </p>
+    <p>
+        Este proceso deshabilita 2FA hasta que verifique su aplicación de autenticación.
+        Si no completa la configuración de la aplicación de autenticación, puede perder el acceso a su cuenta.
+    </p>
+</div>
+<div>
+    <form method="post" class="form-group">
+        <button id="reset-authenticator-button" class="btn btn-danger" type="submit" asp-action="OnReset2FA">
+            Restablecer clave autenticador
+        </button>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,35 @@
+﻿@model Requirements.Data.Entities.Role
+@{
+    ViewData["Title"] = "Detalles del rol";
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr />
+<div>    
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+
+    @if (Model.Name.Equals("Administrador") || Model.Name.Equals("Analista") || Model.Name.Equals("Cliente"))
+    {
+        <a asp-action="Index">Volver</a>
+    }
+    else
+    {
+        <a asp-action="Index">Volver</a> <span>|</span>
+        <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a>
+    }
+</div>
