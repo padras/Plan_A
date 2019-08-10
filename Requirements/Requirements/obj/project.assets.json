@@ -13138,24 +13138,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dacam\\.nuget\\packages\\": {},
+    "C:\\Users\\Andrey\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dacam\\OneDrive\\Universidad\\Teoría de Sistemas\\Proyecto\\el casi listo\\Requirements (1)\\Requirements\\Requirements\\Requirements.csproj",
+      "projectUniqueName": "C:\\Users\\Andrey\\Documents\\GitHub\\Plan_A\\Requirements\\Requirements\\Requirements.csproj",
       "projectName": "Requirements",
-      "projectPath": "C:\\Users\\dacam\\OneDrive\\Universidad\\Teoría de Sistemas\\Proyecto\\el casi listo\\Requirements (1)\\Requirements\\Requirements\\Requirements.csproj",
-      "packagesPath": "C:\\Users\\dacam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dacam\\OneDrive\\Universidad\\Teoría de Sistemas\\Proyecto\\el casi listo\\Requirements (1)\\Requirements\\Requirements\\obj\\",
+      "projectPath": "C:\\Users\\Andrey\\Documents\\GitHub\\Plan_A\\Requirements\\Requirements\\Requirements.csproj",
+      "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andrey\\Documents\\GitHub\\Plan_A\\Requirements\\Requirements\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\ProgramData\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dacam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Andrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
