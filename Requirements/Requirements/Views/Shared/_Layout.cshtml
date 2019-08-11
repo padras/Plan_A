@@ -6,9 +6,21 @@
     <title>@ViewData["Title"] - Plan-A</title>
 
     <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link href="~/node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="~/css/site.css" />
+
+        <link rel="icon" href="https://getbootstrap.com/docs/4.1/assets/img/favicons/favicon.ico">
+
+        <link rel="shortcut icon" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/favicon.ico" />
+
+        <title>Cover Template for Bootstrap</title>
+
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/cover/">
+
+        <!-- Bootstrap core CSS -->
+        <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="https://getbootstrap.com/docs/4.1/examples/cover/cover.css" rel="stylesheet">
+
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -41,9 +53,53 @@
     <div class="container body-content mt-4">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; 2019 - Plan-A</p>
+        <!-- Footer -->
+        <footer class="page-footer font-small special-color-dark pt-4">
+
+            <!-- Footer Elements -->
+            <div class="container">
+
+                <!-- Social buttons -->
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-fb mx-1">
+                            <i class="fab fa-facebook-f"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-tw mx-1">
+                            <i class="fab fa-twitter"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-gplus mx-1">
+                            <i class="fab fa-google-plus-g"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-li mx-1">
+                            <i class="fab fa-linkedin-in"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-dribbble mx-1">
+                            <i class="fab fa-dribbble"> </i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Social buttons -->
+
+            </div>
+            <!-- Footer Elements -->
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">
+                © 2019 Copyright:
+                <a href=""> Plan - A. Development Company.</a>
+            </div>
+            <!-- Copyright -->
+
         </footer>
+        <!-- Footer -->
     </div>
 
     <environment include="Development">

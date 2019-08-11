@@ -13145,11 +13145,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrey\\Documents\\GitHub\\Plan_A\\Requirements\\Requirements\\Requirements.csproj",
+      "projectUniqueName": "C:\\Users\\Andrey\\Desktop\\Requirements\\Requirements\\Requirements.csproj",
       "projectName": "Requirements",
-      "projectPath": "C:\\Users\\Andrey\\Documents\\GitHub\\Plan_A\\Requirements\\Requirements\\Requirements.csproj",
+      "projectPath": "C:\\Users\\Andrey\\Desktop\\Requirements\\Requirements\\Requirements.csproj",
       "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrey\\Documents\\GitHub\\Plan_A\\Requirements\\Requirements\\obj\\",
+      "outputPath": "C:\\Users\\Andrey\\Desktop\\Requirements\\Requirements\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
