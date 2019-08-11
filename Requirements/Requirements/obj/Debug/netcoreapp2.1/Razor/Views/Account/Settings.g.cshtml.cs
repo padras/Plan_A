@@ -120,7 +120,7 @@ using Requirements.Models;
             WriteLiteral("\r\n    </dd>\r\n</dl>\r\n<div class=\"text-center\">\r\n    ");
             EndContext();
             BeginContext(672, 94, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f1ec3b408d448dc87eb6e669c32fb94", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "80f861fafd2f4dda8416c32cd8576e74", async() => {
                 BeginContext(745, 17, true);
                 WriteLiteral("Actualizar perfil");
                 EndContext();
@@ -145,7 +145,7 @@ using Requirements.Models;
             WriteLiteral("\r\n</div>\r\n<div>\r\n    <dl class=\"text-center dl-horizontal\">\r\n        <dt style=\"color:#a6bdb3\">\r\n            Contraseña\r\n        </dt>\r\n        <dd>\r\n            ");
             EndContext();
             BeginContext(928, 90, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed9e0dc5e4774b15ac84b37ddbd0478f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "17152771f9f240c6b64592710952e887", async() => {
                 BeginContext(979, 35, true);
                 WriteLiteral("<strong>Cambiar contraseña</strong>");
                 EndContext();
@@ -187,7 +187,7 @@ using Requirements.Models;
             WriteLiteral("                ");
             EndContext();
             BeginContext(1306, 81, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7428047c2b9d41a1a526fe320ec84f76", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6d9d80763d5946e1a4774f7f1299a5b4", async() => {
                 BeginContext(1356, 27, true);
                 WriteLiteral("<strong>Desactivar</strong>");
                 EndContext();
@@ -210,7 +210,7 @@ using Requirements.Models;
             WriteLiteral("\r\n                <label> | </label>\r\n                ");
             EndContext();
             BeginContext(1441, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3015007ac3eb4de9ba0ebf0b0ab694df", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1da510cbb2824c129acd6a57e8776c41", async() => {
                 BeginContext(1488, 26, true);
                 WriteLiteral("<strong>Reiniciar</strong>");
                 EndContext();
@@ -233,7 +233,7 @@ using Requirements.Models;
             WriteLiteral("\r\n                <label> | </label>\r\n                ");
             EndContext();
             BeginContext(1572, 114, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "45f1b166619c4ffa9a63eaeb9286b694", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dbc411173e8d40da820dc0802418ac3e", async() => {
                 BeginContext(1632, 50, true);
                 WriteLiteral("<strong>Reiniciar códigos de recuperación</strong>");
                 EndContext();
@@ -266,7 +266,7 @@ using Requirements.Models;
             WriteLiteral("                ");
             EndContext();
             BeginContext(1752, 76, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d6d2bbe6fb724d29ac2fbc9beef28306", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5aa146ffc1674684bff26c362533effc", async() => {
                 BeginContext(1800, 24, true);
                 WriteLiteral("<strong>Activar</strong>");
                 EndContext();
@@ -297,7 +297,7 @@ using Requirements.Models;
             WriteLiteral("        </dd>\r\n    </dl>\r\n\r\n    <div>\r\n        ");
             EndContext();
             BeginContext(1892, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10faaf3965a2461895bb5eb0a1f6cc2a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "766ae057ef9d422fb6bb30551e22d51f", async() => {
                 BeginContext(1936, 6, true);
                 WriteLiteral("Volver");
                 EndContext();

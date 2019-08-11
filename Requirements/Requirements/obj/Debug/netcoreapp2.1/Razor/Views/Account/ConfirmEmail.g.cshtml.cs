@@ -61,7 +61,7 @@ using Requirements.Models;
             WriteLiteral("\r\n<h2>Confirmación de correo electrónico</h2>\r\n\r\n<div>\r\n    <p>Gracias por confirmar tu email. Ahora puedes ");
             EndContext();
             BeginContext(178, 65, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0cdd92b031ba4b588f7fdc69cc9983cf", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c43c9d5fcd3c483c996e965dc036e1d2", async() => {
                 BeginContext(225, 14, true);
                 WriteLiteral("iniciar sesión");
                 EndContext();

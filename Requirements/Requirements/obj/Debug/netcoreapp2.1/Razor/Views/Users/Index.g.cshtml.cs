@@ -77,7 +77,7 @@ Write(ViewData["Title"]);
             WriteLiteral("</h2>\r\n");
             EndContext();
             BeginContext(126, 67, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "38c316b7bd73483f98e564a9b8892dfa", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "629867aed383443a86a0b9b7b06bdd93", async() => {
                 BeginContext(176, 13, true);
                 WriteLiteral("Crear usuario");
                 EndContext();
@@ -168,7 +168,7 @@ Write(ViewData["Title"]);
             WriteLiteral("                        ");
             EndContext();
             BeginContext(1232, 143, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a7e60d82a96348ae8523db5479c5441e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1eaf32740eb94a9ba1e316fbbc020fb4", async() => {
                 BeginContext(1335, 36, true);
                 WriteLiteral("<strong>Deshabilitar cuenta</strong>");
                 EndContext();
@@ -216,7 +216,7 @@ Write(ViewData["Title"]);
             WriteLiteral("                        ");
             EndContext();
             BeginContext(1473, 139, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d0ce33590314a61a28a050f97e83241", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "60db312640f2476c9a47ce6acf557438", async() => {
                 BeginContext(1575, 33, true);
                 WriteLiteral("<strong>Habilitar cuenta</strong>");
                 EndContext();
@@ -262,7 +262,7 @@ Write(ViewData["Title"]);
             WriteLiteral("                    | ");
             EndContext();
             BeginContext(1659, 55, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "42af127208004ef9a39737cde2e8548b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "afc6389194f5485db55b7e2f5b428640", async() => {
                 BeginContext(1704, 6, true);
                 WriteLiteral("Editar");
                 EndContext();
@@ -297,7 +297,7 @@ Write(ViewData["Title"]);
             WriteLiteral("\r\n                    | ");
             EndContext();
             BeginContext(1738, 59, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "039ebc7ec2d44d88a2bfb406ca01ebeb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b1e6d79dd39740ca98cedb9ce190df66", async() => {
                 BeginContext(1785, 8, true);
                 WriteLiteral("Eliminar");
                 EndContext();

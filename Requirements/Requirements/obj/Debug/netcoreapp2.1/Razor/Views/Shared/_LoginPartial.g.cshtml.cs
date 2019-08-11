@@ -66,7 +66,7 @@ using Requirements.Models;
             WriteLiteral("    <li class=\"nav-item\">\r\n        ");
             EndContext();
             BeginContext(80, 107, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "de493db79ed84044bbfa9febb07fa88b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "501bed2242c346c3b05581bb4e11da83", async() => {
                 BeginContext(160, 23, false);
 #line 4 "C:\Users\Andrey\Documents\GitHub\Plan_A\Requirements\Requirements\Views\Shared\_LoginPartial.cshtml"
                                                                                   Write(this.User.Identity.Name);
@@ -97,7 +97,7 @@ using Requirements.Models;
             WriteLiteral("\r\n    </li>\r\n    <li class=\"nav-item\">\r\n        ");
             EndContext();
             BeginContext(235, 94, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fb840ddae39a463a90b5d971c0dcf684", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8bf14afa0923435f887ea1d3cc340f5f", async() => {
                 BeginContext(312, 13, true);
                 WriteLiteral("Cerrar sesión");
                 EndContext();
@@ -134,7 +134,7 @@ else
             WriteLiteral("    <li class=\"nav-item\">\r\n        ");
             EndContext();
             BeginContext(389, 102, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d1565fa63f764b1f81c1bf03d76e471c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9fa53960dc5a4133ab6de2d28c7c62aa", async() => {
                 BeginContext(476, 11, true);
                 WriteLiteral("Registrarse");
                 EndContext();
@@ -161,7 +161,7 @@ else
             WriteLiteral("\r\n    </li>\r\n    <li class=\"nav-item\">\r\n        ");
             EndContext();
             BeginContext(539, 94, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d00d005f08c9484bb6de80a4a782ae84", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a4232f2d54ce499ca9680824d07aadf1", async() => {
                 BeginContext(615, 14, true);
                 WriteLiteral("Iniciar sesión");
                 EndContext();

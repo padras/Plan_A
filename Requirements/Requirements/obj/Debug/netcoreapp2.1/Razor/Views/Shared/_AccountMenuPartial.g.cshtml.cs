@@ -67,7 +67,7 @@ using Requirements.Models;
             WriteLiteral("    <li class=\"nav-item\">\r\n        ");
             EndContext();
             BeginContext(109, 86, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9330aa8396a4454aa980b13b0db1b4d8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1515ef3bf2e84b708c57138820e4aa8f", async() => {
                 BeginContext(184, 7, true);
                 WriteLiteral("Estados");
                 EndContext();
@@ -94,7 +94,7 @@ using Requirements.Models;
             WriteLiteral("\r\n    </li>\r\n    <li class=\"nav-item\">\r\n        ");
             EndContext();
             BeginContext(243, 90, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "894d0f71d0454bf7932f164f69e36f28", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cd3c0dc0ab7845d3abf5f75882775815", async() => {
                 BeginContext(320, 9, true);
                 WriteLiteral("Proyectos");
                 EndContext();
@@ -121,7 +121,7 @@ using Requirements.Models;
             WriteLiteral("\r\n    </li>\r\n    <li class=\"nav-item\">\r\n        ");
             EndContext();
             BeginContext(381, 95, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8e80200423b64896b2c86937ffc175cd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0bde2f2dd410441697e0077bf5aa2ee7", async() => {
                 BeginContext(462, 10, true);
                 WriteLiteral("Requisitos");
                 EndContext();
@@ -148,7 +148,7 @@ using Requirements.Models;
             WriteLiteral("\r\n    </li>\r\n    <li class=\"nav-item\">\r\n        ");
             EndContext();
             BeginContext(524, 86, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "506682ed3f0b423c8b97f9f384156052", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c16e31c91b8f408c9e40e17678d5150a", async() => {
                 BeginContext(598, 8, true);
                 WriteLiteral("Usuarios");
                 EndContext();
@@ -175,7 +175,7 @@ using Requirements.Models;
             WriteLiteral("\r\n    </li>\r\n    <li class=\"nav-item\">\r\n        ");
             EndContext();
             BeginContext(658, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d66e2e7cb14495d9eaed28fce77dec8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "54ac79b8b91045ed95ba6c6c30e250b3", async() => {
                 BeginContext(732, 5, true);
                 WriteLiteral("Roles");
                 EndContext();
@@ -212,7 +212,7 @@ else if (User.IsInRole("Analista") && User.Identity.IsAuthenticated)
             WriteLiteral("    <li class=\"nav-item\">\r\n        ");
             EndContext();
             BeginContext(865, 90, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "75b5410d6f5148a8a8a9987ff238907e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "60094304611647d98452d59f0075e4b2", async() => {
                 BeginContext(942, 9, true);
                 WriteLiteral("Proyectos");
                 EndContext();
@@ -239,7 +239,7 @@ else if (User.IsInRole("Analista") && User.Identity.IsAuthenticated)
             WriteLiteral("\r\n    </li>\r\n    <li class=\"nav-item\">\r\n        ");
             EndContext();
             BeginContext(1003, 95, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d63f6c01cb0c4bd589a70825f4cae729", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c4cf0dc087aa4c14aed806b2e9e4f6c8", async() => {
                 BeginContext(1084, 10, true);
                 WriteLiteral("Requisitos");
                 EndContext();
@@ -276,7 +276,7 @@ else if (User.IsInRole("Cliente") && User.Identity.IsAuthenticated)
             WriteLiteral("    <li class=\"nav-item\">\r\n        ");
             EndContext();
             BeginContext(1221, 95, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e16928737e57488e92a9bd6ada2d16dc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3b36e4648d402ab6d5a98afbe3273d", async() => {
                 BeginContext(1302, 10, true);
                 WriteLiteral("Requisitos");
                 EndContext();

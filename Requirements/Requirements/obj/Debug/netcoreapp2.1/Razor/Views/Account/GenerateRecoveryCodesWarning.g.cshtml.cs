@@ -80,7 +80,7 @@ using Requirements.Models;
         La generación de nuevos códigos de recuperación no cambia las claves utilizadas en las aplicaciones de autenticación. Si deseas cambiar la llave utilizado en una aplicación de autenticador debería ");
             EndContext();
             BeginContext(750, 65, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16700793345d4410b6394e8215346309", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "716dc8ae55ec4394889c0765554936a6", async() => {
                 BeginContext(775, 36, true);
                 WriteLiteral("restablecer su clave de autenticador");
                 EndContext();
@@ -102,7 +102,7 @@ using Requirements.Models;
             WriteLiteral(". Si decide realizar esta acción, se deshabilitará la autentificación de dos factores hasta que vuelva a ser activado con la nueva llave que este genere.\r\n    </p>\r\n</div>\r\n\r\n<div>\r\n    ");
             EndContext();
             BeginContext(1001, 189, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "79c7ae5ee5f3426cabb923edeb22f19e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "81fb3e8fe51141548d960b18f543ca8c", async() => {
                 BeginContext(1075, 108, true);
                 WriteLiteral("\r\n        <button class=\"btn btn-danger\" type=\"submit\">Generar nuevos códigos de recuperación</button>\r\n    ");
                 EndContext();
